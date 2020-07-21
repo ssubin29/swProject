@@ -4,19 +4,52 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class pushMaterial : MonoBehaviour
+public class pushMaterial : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     public Slider sliderValue;
-    public void OnPushClick()
+    bool isBtnDown;
+    float currentValue;
+    bool doingPush;
+
+    private void Start()
     {
-        Debug.Log("ㅗ");
-        if (Input.GetKey(KeyCode.Mouse0) == true)
+        doingPush = false;
+    }
+
+    private void Update()
+    {
+        if (isBtnDown)
         {
-            Debug.Log("ㅗㅗ");
             sliderValue.value += 0.5f * Time.deltaTime;
             if (sliderValue.value > 1f)
                 sliderValue.value = 1f;
         }
-        
+
+        else
+        {
+            if (doingPush == false)
+            {
+                saveValue();
+            }
+            
+        }
+    }
+
+    public void OnPointerDown(PointerEventData eventData)
+    {
+        isBtnDown = true;
+
+    }
+
+    public void OnPointerUp(PointerEventData eventData)
+    {
+        isBtnDown = false;
+
+    }
+
+    public void saveValue()
+    {
+        doingPush = true;
+        Debug.Log(sliderValue.value);
     }
 }
