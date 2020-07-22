@@ -20,11 +20,21 @@ public class materialSelect : MonoBehaviour, IPointerEnterHandler, IPointerExitH
 
     public void onMaterialClick()
     {
-        //Debug.Log("오렌지 주스를 클릭하셨습니까?");
+        Debug.Log("오렌지 주스를 클릭하셨습니까?");
 
         //tiltMaterial();
 
     }
+
+    /*public void tiltMaterial()
+    {
+        StartCoroutine(startTilt());
+    }
+
+    IEnumerator startTilt()
+    {
+        Debug.Log("Hello");
+    }*/
 
     public void OnPointerEnter(PointerEventData eventData)
     {
