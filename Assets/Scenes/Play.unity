@@ -440,7 +440,11 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1901970549}
+<<<<<<< HEAD
   - {fileID: 1911968173}
+=======
+  - {fileID: 1754858407}
+>>>>>>> 0fdfed069cdef576181d3ca15b84e0fdd1d39639
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -461,7 +465,11 @@ GameObject:
   - component: {fileID: 418172488}
   - component: {fileID: 418172487}
   m_Layer: 5
+<<<<<<< HEAD
   m_Name: Fill
+=======
+  m_Name: Panel
+>>>>>>> 0fdfed069cdef576181d3ca15b84e0fdd1d39639
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -706,10 +714,10 @@ RectTransform:
   m_Father: {fileID: 809366597}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 50, y: 50}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &459086710
 MonoBehaviour:
@@ -731,11 +739,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
+<<<<<<< HEAD
     m_Font: {fileID: 12800000, guid: b6349d08a5335cd4aa534282435d11cc, type: 3}
     m_FontSize: 10
+=======
+    m_Font: {fileID: 12800000, guid: c5dea8ac51589384180c7c6a4ebf9f1d, type: 3}
+    m_FontSize: 14
+>>>>>>> 0fdfed069cdef576181d3ca15b84e0fdd1d39639
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 1
+    m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -2307,8 +2320,24 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1754858409}
   m_OnClick:
     m_PersistentCalls:
+<<<<<<< HEAD
       m_Calls: []
 --- !u!114 &1754858409
+=======
+      m_Calls:
+      - m_Target: {fileID: 1163675257}
+        m_MethodName: onMaterialClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1163675254
+>>>>>>> 0fdfed069cdef576181d3ca15b84e0fdd1d39639
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2528,6 +2557,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1878238518}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2536,6 +2566,15 @@ RectTransform:
   - {fileID: 59577097}
   m_Father: {fileID: 670135371}
   m_RootOrder: 2
+=======
+  m_GameObject: {fileID: 1754858406}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 384816376}
+  m_RootOrder: 1
+>>>>>>> 0fdfed069cdef576181d3ca15b84e0fdd1d39639
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2614,8 +2653,24 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1878238523}
   m_OnClick:
     m_PersistentCalls:
+<<<<<<< HEAD
       m_Calls: []
 --- !u!114 &1878238523
+=======
+      m_Calls:
+      - m_Target: {fileID: 1754858411}
+        m_MethodName: OnPushClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1754858409
+>>>>>>> 0fdfed069cdef576181d3ca15b84e0fdd1d39639
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2868,7 +2923,11 @@ GameObject:
   - component: {fileID: 2081919675}
   - component: {fileID: 2081919674}
   m_Layer: 5
+<<<<<<< HEAD
   m_Name: LJ(text)
+=======
+  m_Name: Panel
+>>>>>>> 0fdfed069cdef576181d3ca15b84e0fdd1d39639
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2884,8 +2943,15 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD
   m_Children: []
   m_Father: {fileID: 448470418}
+=======
+  m_Children:
+  - {fileID: 670135371}
+  - {fileID: 1854592319}
+  m_Father: {fileID: 384816376}
+>>>>>>> 0fdfed069cdef576181d3ca15b84e0fdd1d39639
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
