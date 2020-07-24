@@ -27,7 +27,7 @@ public class pushMaterial : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
 
         else
         {
-            if (doingPush == false)
+            if (doingPush == false&&sliderValue.value!=0)
             {
                 saveValue();
             }

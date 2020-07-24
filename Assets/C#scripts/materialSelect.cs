@@ -7,9 +7,22 @@ using UnityEngine.EventSystems;
 public enum MaterialType
 {
     orangeJuice,
+    rimeJuice,
+    cranberryJuice,
+    lemonJuice,
+    pineappleJuice,
+    tomatoJuice,
+    kahlua,
+    jin,
+    rum,
+    tequila,
+    grenadine,
+    whiskey,
+    tripleSec,
+    galliano,
+    tonic,
     vodka,
-    rime
-
+    cola
 }
 
 public class materialSelect : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
@@ -30,13 +43,13 @@ public class materialSelect : MonoBehaviour, IPointerEnterHandler, IPointerExitH
     {
         buttonOutline=GetComponent<Outline>();
         buttonOutline.enabled = true;
-        buttonText.text = "orange juice";
+        buttonText.enabled = true;
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
         buttonOutline = GetComponent<Outline>();
         buttonOutline.enabled = false;
-        buttonText.text = "";
+        buttonText.enabled = false;
     }
 }
